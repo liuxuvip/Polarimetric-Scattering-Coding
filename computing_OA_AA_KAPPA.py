@@ -1,6 +1,6 @@
+#####
 # Do multi-classification task,
 # then get the ground truth and the predict label named y_true and y_pred
-# computing overall_accuracy,average_accuracy,kappa_coefficient
 from sklearn import metrics
 import numpy as np
 
