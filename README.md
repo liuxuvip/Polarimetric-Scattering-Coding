@@ -15,7 +15,9 @@ pscm = c2m(simdata)
 
 
 @ARTICLE{Xu2019PCN, 
+
 author={X. {Liu} and L. {Jiao} and X. {Tang} and Q. {Sun} and D. {Zhang}}, 
+
 journal={IEEE Transactions on Geoscience and Remote Sensing}, 
 
 title={Polarimetric Convolutional Network for PolSAR Image Classification}, 
