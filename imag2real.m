@@ -1,20 +1,24 @@
-function Ts= imag2real( TT1 )
-m=size(TT1,1);
+function Ts= imag2real(Tp)
+% complex-value-point-2-real-value-point-matrix
+% Tp : a comlex-value point matrix
+m=size(Tp,1);
 Ts=zeros(m*2,m*2);
+% Ts : a real-value point matrix
+
 for i=1:m
    for j=1:m
        tt=zeros(2,2);
-    a=TT1(i,j);
+    a=Tp(i,j);
     sb=real(a);
     xb=imag(a);
     
-    %实部奇数列
+    %Real part, odd number, column
     if sb > 0
         tt(1,1)=sb;
     else
         tt(2,1)=-sb;
     end
-    %虚部偶数数列
+    %Imaginary part, even number, column
       if xb > 0
         tt(1,2)=xb;
     else
@@ -24,4 +28,3 @@ for i=1:m
 end
 end
 end
-
