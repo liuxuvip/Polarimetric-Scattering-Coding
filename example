@@ -1,5 +1,5 @@
 % load('simdata.mat')
 simdata = {randn(2,2)+rand(2,2)*i,randn(2,2)+rand(2,2)*i,randn(2,2)+rand(2,2)*i;randn(2,2)+rand(2,2)*i,randn(2,2)+rand(2,2)*i,randn(2,2)+rand(2,2)*i}
-% simdata: A (2*3) composite complex polarization scattering image data.
+% simdata: A (2*3) composite complex polarimetric scattering image data.
 pscm = c2m(simdata)
-% pscm: the proposed Polarization Scattering Coding Matrix.
+% pscm: the proposed Polarimetric-Scattering-Coding-Matrix.
