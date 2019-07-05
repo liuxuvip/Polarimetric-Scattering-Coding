@@ -14,20 +14,3 @@ pscm = c2m(simdata)
 % pscm: the proposed Polarimetric-Scattering-Coding Matrix.
 
 X. Liu, L. Jiao, X. Tang, Q. Sun and D. Zhang, "Polarimetric Convolutional Network for PolSAR Image Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 57, no. 5, pp. 3040-3054, May 2019.
-@ARTICLE{Xu2019PCN, 
-
-author={X. {Liu} and L. {Jiao} and X. {Tang} and Q. {Sun} and D. {Zhang}}, 
-
-journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-
-title={Polarimetric Convolutional Network for PolSAR Image Classification}, 
-
-year={2019}, 
-
-volume={57}, 
-
-number={5}, 
-
-pages={3040-3054},
-
-month={May},}
