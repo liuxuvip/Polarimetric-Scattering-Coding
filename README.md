@@ -12,3 +12,22 @@ load('simdata.mat')
 pscm = c2m(simdata)
 
 % pscm: the proposed Polarimetric-Scattering-Coding Matrix.
+
+
+@ARTICLE{Xu2019PCN, 
+
+author={X. {Liu} and L. {Jiao} and X. {Tang} and Q. {Sun} and D. {Zhang}}, 
+
+journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+
+title={Polarimetric Convolutional Network for PolSAR Image Classification}, 
+
+year={2019}, 
+
+volume={57}, 
+
+number={5}, 
+
+pages={3040-3054},
+
+month={May},}
