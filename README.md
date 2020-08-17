@@ -14,7 +14,7 @@ pscm = c2m(simdata)
 % pscm: the proposed Polarimetric-Scattering-Coding Matrix.
 
 citation：
-If you find EMANet useful in your research, please consider citing:
+If you find it useful in your research, please consider citing:
 
 @ARTICLE{PCNliu,
 author={X. {Liu} and L. {Jiao} and X. {Tang} and Q. {Sun} and D. {Zhang}},
